@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">vivek student system</string>
+
+    <string name="register_text"><u>Register</u></string>
+    <string name="login_text"><u>Login</u></string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email Id</string>
+    <string name="username_p">Username</string>
+    <string name="con_password">con_Password</string>
+    <string name="login">Login</string>
+    <string name="code">Enter verification code</string>
+
+    <string name="vivek_college_of_commerce">Vivek College Of Commerce</string>
+    <string name="select_date">select Date</string>
+    <string name="swipe_right_for_login">>swipe_right_for_login</string>
+    <string-array name="user_type">
+        <item>user type</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
