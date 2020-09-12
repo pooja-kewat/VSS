@@ -22,7 +22,7 @@ public class ChangePasswd extends AppCompatActivity {
     Button btn_change_passwd;
     String username,password;
     String resp1;
-    public static String webmethod="change_passwd";
+    public static String webmethod="change_password";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class ChangePasswd extends AppCompatActivity {
 
         txt_username=(EditText)findViewById(R.id.user_name);
         txt_passwd=(EditText)findViewById(R.id.passwd);
-        btn_change_passwd=(Button)findViewById(R.id.passwd_change);
+        btn_change_passwd=(Button)findViewById(R.id.change_password);
         btn_change_passwd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,8 +73,10 @@ public class ChangePasswd extends AppCompatActivity {
         }
         catch (Exception e)
         {
-            resp1=e.getMessage().toString();
-            return e.getMessage().toString();
+            /*resp1=e.getMessage().toString();
+            return e.getMessage().toString();*/
+            resp1=e.getMessage()+"p";
+            return e.getMessage()+"k";
         }
     }
 
@@ -94,7 +96,7 @@ public class ChangePasswd extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), resp1, Toast.LENGTH_SHORT).show();
             if(resp1.equals("1")){
 
-                    Intent i = new Intent(ChangePasswd.this, login_fragment.class);
+                    Intent i = new Intent(ChangePasswd.this, MainActivity.class);
                     startActivity(i);
 
                     Toast.makeText(getApplicationContext(), "Passwd change", Toast.LENGTH_SHORT).show();
@@ -111,3 +113,4 @@ public class ChangePasswd extends AppCompatActivity {
         }
     }
 }
+

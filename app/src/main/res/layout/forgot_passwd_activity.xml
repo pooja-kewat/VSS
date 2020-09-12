@@ -82,7 +82,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/buttonshape"
             android:fontFamily="@font/gotham"
-            android:text="Next"
+            android:text="@string/Next"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="18sp"

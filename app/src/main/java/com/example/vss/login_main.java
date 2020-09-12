@@ -44,7 +44,7 @@ String utype;
         txt_no=(EditText)findViewById(R.id.no);
         txt_username=(EditText)findViewById(R.id.user_name);
          txt_passwd=(EditText)findViewById(R.id.passwd);
-         btn_login=(Button)findViewById(R.id.passwd_change);
+         btn_login=(Button)findViewById(R.id.login);
          spinner=(Spinner)findViewById(R.id.spinner1);
         spinner.setOnItemSelectedListener(this);
         Type.add("Select-user-type");

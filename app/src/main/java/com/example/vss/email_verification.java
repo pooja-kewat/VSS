@@ -27,7 +27,7 @@ String code,resp1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.email_verification_activity);
         txt_code=findViewById(R.id.code);
-        btn_verify=findViewById(R.id.passwd_change);
+        btn_verify=findViewById(R.id.login);
         btn_verify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,7 +92,7 @@ String code,resp1;
 
             Toast.makeText(getApplicationContext(), resp1, Toast.LENGTH_SHORT).show();
 
-                Intent i = new Intent(email_verification.this, login_fragment.class);
+                Intent i = new Intent(email_verification.this,ChangePasswd.class);
                 startActivity(i);
 
                 Toast.makeText(getApplicationContext(), "Verify", Toast.LENGTH_SHORT).show();

@@ -34,7 +34,7 @@
             android:fontFamily="@font/gotham"
             android:gravity="center"
             android:shadowColor="#57000000"
-            android:text="@string/login_text"
+            android:text="@string/change_passwd"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="28sp"
@@ -72,7 +72,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/passwd_change"
+            android:id="@+id/change_password"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -80,7 +80,7 @@
             android:layout_marginBottom="16dp"
             android:background="@drawable/buttonshape"
             android:fontFamily="@font/gotham"
-            android:text="@string/login"
+            android:text="Change password"
             android:textAllCaps="false"
             android:textColor="#ffffff"
             android:textSize="18sp"

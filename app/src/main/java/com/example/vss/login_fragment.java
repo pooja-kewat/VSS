@@ -60,7 +60,7 @@ public class login_fragment extends Fragment implements AdapterView.OnItemSelect
         txt_no=(EditText) view.findViewById(R.id.no);
         txt_username=(EditText)view.findViewById(R.id.user_name);
         txt_passwd=(EditText) view.findViewById(R.id.passwd);
-        btn_login= view.findViewById(R.id.passwd_change);
+        btn_login= view.findViewById(R.id.login);
         txt_forget_passwd=(TextView) view.findViewById(R.id.Forgot_Password);
         spinner=(Spinner)view.findViewById(R.id.spinner1);
         spinner.setOnItemSelectedListener(this);
